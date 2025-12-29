@@ -33,11 +33,11 @@ public:
     ElectricCar(string b, int y) : Car(b, y) {}
 
     void start() override {
-        cout << "ElectricCar starting silently ⚡️" << endl;
+        cout << "ElectricCar starting silently ?" << endl;
     }
 
     void recharge() override {
-        cout << "Charging the battery 🔋" << endl;
+        cout << "Charging the battery ??" << endl;
     }
 };
 
@@ -46,7 +46,7 @@ public:
     GasCar(string b, int y) : Car(b, y) {}
 
     void start() override {
-        cout << "GasCar engine starts with a roar ⛽️" << endl;
+        cout << "GasCar engine starts with a roar ?" << endl;
     }
 };
 
@@ -55,11 +55,11 @@ public:
     HybridCar(string b, int y) : Car(b, y) {}
 
     void start() override {
-        cout << "HybridCar starts with electric motor then gas engine ⚙️" << endl;
+        cout << "HybridCar starts with electric motor then gas engine ??" << endl;
     }
 
     void recharge() override {
-        cout << "Recharging hybrid system battery 🔋" << endl;
+        cout << "Recharging hybrid system battery ??" << endl;
     }
 };
 
