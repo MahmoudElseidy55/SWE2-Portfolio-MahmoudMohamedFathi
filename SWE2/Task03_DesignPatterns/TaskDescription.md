@@ -1,7 +1,5 @@
 Task Description
 
-This task was implemented using the **C++ programming language** to demonstrate
-the application of common **Design Patterns** in a practical scenario.
 
 Design Patterns Applied:
 
@@ -24,10 +22,6 @@ Design Patterns Applied:
    - Implemented using `BeverageDecorator` and `MilkDecorator`.
    - Adds additional functionality (milk) to an existing beverage
      without modifying its original class.
-
-5. **Observer Pattern**
-   - Implemented using the `Observer`, `Customer`, and `Cafe` classes.
-   - Customers are notified whenever a beverage order is made.
 
  Program Flow:
 - The system starts by initializing the logger using the Singleton pattern.
